@@ -9,6 +9,6 @@ class CategoryController extends Controller
 {
     public function getCategories(){
         $categories = Category::all();
-    return view("",compact("categories"));
+    return view("category.index");
     }
 }
